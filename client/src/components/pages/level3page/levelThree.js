@@ -1,8 +1,8 @@
 import React, { Children } from "react";
 import ReactDOM from 'react-dom';
 import RandomNumbersArray from "../../../randomNumberGenerator";
-import incorrectSfx from "../../../sounds/wrong.mp3";
-import correctSfx from "../../../sounds/correct.mp3";
+import incorrectSfx from "/wrong.mp3";
+import correctSfx from "/correct.mp3";
 import Number from '../../Number';
 import Board from "../../Board.js";
 import '../level2page/level2.css';
