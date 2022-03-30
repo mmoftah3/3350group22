@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import incorrectSfx from "../../../sounds/wrong.mp3";
-import correctSfx from "../../../sounds/correct.mp3";
+import incorrectSfx from "/wrong.mp3";
+import correctSfx from "/correct.mp3";
 import style from "./levelThree.css";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
